@@ -1,0 +1,594 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "Any"
+  },
+  "analysisStartTime": "2024-10-14T23:43:32.560741Z",
+  "analysisEndTime": "2024-10-14T23:43:32.898721Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
+  "stats": {
+    "summary": {
+      "projects": 3,
+      "issues": 9,
+      "incidents": 25,
+      "effort": 73
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 3,
+        "Optional": 3,
+        "Potential": 19,
+        "Information": 0
+      },
+      "category": {
+        "Runtime": 2,
+        "Scale": 2,
+        "Local": 15,
+        "Connection": 2,
+        "Identity": 2,
+        "Security": 2
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "eShopLegacy.Common\\eShopLegacy.Common.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 3,
+      "ruleInstances": [
+        {
+          "incidentId": "01a1207c-39c6-4b78-a80f-6d4c7be236c3",
+          "ruleId": "Runtime.0002",
+          "projectPath": "eShopLegacy.Common\\eShopLegacy.Common.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacy.Common\\eShopLegacy.Common.csproj",
+            "snippet": "Target framework: .NETFramework,Version=v4.6.1",
+            "protectedSnippet": "Target framework: .NETFramework,Version=v4.6.1"
+          }
+        }
+      ]
+    },
+    {
+      "path": "eShopLegacy.Utilities\\eShopLegacy.Utilities.csproj",
+      "startingProject": true,
+      "issues": 1,
+      "storyPoints": 3,
+      "ruleInstances": [
+        {
+          "incidentId": "749f00e9-a215-4f61-95af-455f21930851",
+          "ruleId": "Runtime.0002",
+          "projectPath": "eShopLegacy.Utilities\\eShopLegacy.Utilities.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacy.Utilities\\eShopLegacy.Utilities.csproj",
+            "snippet": "Target framework: .NETFramework,Version=v4.6.1",
+            "protectedSnippet": "Target framework: .NETFramework,Version=v4.6.1"
+          }
+        }
+      ]
+    },
+    {
+      "path": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+      "startingProject": true,
+      "issues": 8,
+      "storyPoints": 67,
+      "ruleInstances": [
+        {
+          "incidentId": "f465fadb-4625-4374-a653-cfb38ecb6ee1",
+          "ruleId": "Scale.0001",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+            "snippet": "Found 67 files matching the rule:\r\n\r\nContent\\base.css\r\nContent\\bootstrap.css\r\nContent\\bootstrap.min.css\r\nContent\\bootstrap-grid.css\r\nContent\\bootstrap-grid.min.css\r\nContent\\bootstrap-reboot.css\r\nContent\\bootstrap-reboot.min.css\r\nContent\\custom.css\r\nContent\\site.css\r\nfavicon.ico\r\nfonts\\Montserrat-Bold.eot\r\nfonts\\Montserrat-Bold.svg\r\nfonts\\Montserrat-Bold.ttf\r\nfonts\\Montserrat-Bold.woff\r\nfonts\\Montserrat-Bold.woff2\r\nfonts\\Montserrat-Regular.eot\r\nfonts\\Montserrat-Regular.svg\r\nfonts\\Montserrat-Regular.ttf\r\nfonts\\Montserrat-Regular.woff\r\nfonts\\Montserrat-Regular.woff2\r\nImages\\brand.png\r\nImages\\brand_dark.png\r\nImages\\main_banner.png\r\nImages\\main_footer_text.png\r\nPics\\1.png\r\nPics\\10.png\r\nPics\\11.png\r\nPics\\12.png\r\nPics\\2.png\r\nPics\\3.png\r\nPics\\4.png\r\nPics\\5.png\r\nPics\\6.png\r\nPics\\7.png\r\nPics\\8.png\r\nPics\\9.png\r\nPics\\dummy.png\r\nScripts\\bootstrap.bundle.js\r\nScripts\\bootstrap.bundle.min.js\r\nScripts\\bootstrap.js\r\nScripts\\bootstrap.min.js\r\nScripts\\esm\\popper.js\r\nScripts\\esm\\popper.min.js\r\nScripts\\esm\\popper-utils.js\r\nScripts\\esm\\popper-utils.min.js\r\nScripts\\jquery.validate.js\r\nScripts\\jquery.validate.min.js\r\nScripts\\jquery.validate.unobtrusive.js\r\nScripts\\jquery.validate.unobtrusive.min.js\r\nScripts\\jquery-3.3.1.js\r\nScripts\\jquery-3.3.1.min.js\r\nScripts\\jquery-3.3.1.slim.js\r\nScripts\\jquery-3.3.1.slim.min.js\r\nScripts\\modernizr-2.6.2.js\r\nScripts\\modernizr-2.8.3.js\r\nScripts\\popper.js\r\nScripts\\popper.min.js\r\nScripts\\popper-utils.js\r\nScripts\\popper-utils.min.js\r\nScripts\\respond.js\r\nScripts\\respond.matchmedia.addListener.js\r\nScripts\\respond.matchmedia.addListener.min.js\r\nScripts\\respond.min.js\r\nScripts\\umd\\popper.js\r\nScripts\\umd\\popper.min.js\r\nScripts\\umd\\popper-utils.js\r\nScripts\\umd\\popper-utils.min.js\r\n",
+            "protectedSnippet": "Found 67 files matching the rule:\r\n\r\nContent\\base.css\r\nContent\\bootstrap.css\r\nContent\\bootstrap.min.css\r\nContent\\bootstrap-grid.css\r\nContent\\bootstrap-grid.min.css\r\nContent\\bootstrap-reboot.css\r\nContent\\bootstrap-reboot.min.css\r\nContent\\custom.css\r\nContent\\site.css\r\nfavicon.ico\r\nfonts\\Montserrat-Bold.eot\r\nfonts\\Montserrat-Bold.svg\r\nfonts\\Montserrat-Bold.ttf\r\nfonts\\Montserrat-Bold.woff\r\nfonts\\Montserrat-Bold.woff2\r\nfonts\\Montserrat-Regular.eot\r\nfonts\\Montserrat-Regular.svg\r\nfonts\\Montserrat-Regular.ttf\r\nfonts\\Montserrat-Regular.woff\r\nfonts\\Montserrat-Regular.woff2\r\nImages\\brand.png\r\nImages\\brand_dark.png\r\nImages\\main_banner.png\r\nImages\\main_footer_text.png\r\nPics\\1.png\r\nPics\\10.png\r\nPics\\11.png\r\nPics\\12.png\r\nPics\\2.png\r\nPics\\3.png\r\nPics\\4.png\r\nPics\\5.png\r\nPics\\6.png\r\nPics\\7.png\r\nPics\\8.png\r\nPics\\9.png\r\nPics\\dummy.png\r\nScripts\\bootstrap.bundle.js\r\nScripts\\bootstrap.bundle.min.js\r\nScripts\\bootstrap.js\r\nScripts\\bootstrap.min.js\r\nScripts\\esm\\popper.js\r\nScripts\\esm\\popper.min.js\r\nScripts\\esm\\popper-utils.js\r\nScripts\\esm\\popper-utils.min.js\r\nScripts\\jquery.validate.js\r\nScripts\\jquery.validate.min.js\r\nScripts\\jquery.validate.unobtrusive.js\r\nScripts\\jquery.validate.unobtrusive.min.js\r\nScripts\\jquery-3.3.1.js\r\nScripts\\jquery-3.3.1.min.js\r\nScripts\\jquery-3.3.1.slim.js\r\nScripts\\jquery-3.3.1.slim.min.js\r\nScripts\\modernizr-2.6.2.js\r\nScripts\\modernizr-2.8.3.js\r\nScripts\\popper.js\r\nScripts\\popper.min.js\r\nScripts\\popper-utils.js\r\nScripts\\popper-utils.min.js\r\nScripts\\respond.js\r\nScripts\\respond.matchmedia.addListener.js\r\nScripts\\respond.matchmedia.addListener.min.js\r\nScripts\\respond.min.js\r\nScripts\\umd\\popper.js\r\nScripts\\umd\\popper.min.js\r\nScripts\\umd\\popper-utils.js\r\nScripts\\umd\\popper-utils.min.js\r\n"
+          }
+        },
+        {
+          "incidentId": "24b079fe-c078-4d9f-8596-4b8a65cf477b",
+          "ruleId": "Local.0007",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Global.asax.cs",
+            "snippet": "HttpContext.Current.Session[\u0022MachineName\u0022] = Environment.MachineName;",
+            "protectedSnippet": "System.Environment.MachineName",
+            "label": "System.Environment.MachineName",
+            "line": 42,
+            "column": 57
+          }
+        },
+        {
+          "incidentId": "3c8cdb10-88e7-4f57-97ec-6264a2e47a56",
+          "ruleId": "Local.0004",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\log4Net.xml",
+            "snippet": "\u003Cappender name=\u0022file\u0022 type=\u0022log4net.Appender.RollingFileAppender\u0022\u003E\r\n  \u003Cfile value=\u0022logFiles\\myapp.log\u0022 /\u003E\r\n  \u003CappendToFile value=\u0022true\u0022 /\u003E\r\n  \u003CrollingStyle value=\u0022Size\u0022 /\u003E\r\n  \u003CmaxSizeRollBackups value=\u00225\u0022 /\u003E\r\n  \u003CmaximumFileSize value=\u002210MB\u0022 /\u003E\r\n  \u003CstaticLogFileName value=\u0022true\u0022 /\u003E\r\n  \u003Clayout type=\u0022log4net.Layout.PatternLayout\u0022\u003E\r\n    \u003CconversionPattern value=\u0022%date [%thread] %property{activity} %level %logger - %property{requestinfo}%newline%message%newline%newline\u0022 /\u003E\r\n  \u003C/layout\u003E\r\n\u003C/appender\u003E",
+            "protectedSnippet": "\u003Cappender name=\u0022file\u0022 /\u003E"
+          }
+        },
+        {
+          "incidentId": "4c39a5ec-e6af-49bb-8a39-a2f5f693401a",
+          "ruleId": "Connection.0001",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Web.config",
+            "snippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 connectionString=\u0022Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=Microsoft.eShopOnContainers.Services.CatalogDb; Integrated Security=True; MultipleActiveResultSets=True;\u0022 providerName=\u0022System.Data.SqlClient\u0022 /\u003E",
+            "protectedSnippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 /\u003E"
+          }
+        },
+        {
+          "incidentId": "c79c2cd1-3887-43ce-8730-396c178fb0b8",
+          "ruleId": "Connection.0001",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Web.config",
+            "snippet": "\u003Cadd name=\u0022IdentityDBContext\u0022 connectionString=\u0022Data Source=(LocalDb)\\MSSQLLocalDB; Initial Catalog=Microsoft.eShopOnContainers.Services.IdentityDb; Integrated Security=True\u0022 providerName=\u0022System.Data.SqlClient\u0022 /\u003E",
+            "protectedSnippet": "\u003Cadd name=\u0022IdentityDBContext\u0022 /\u003E"
+          }
+        },
+        {
+          "incidentId": "687b7a5e-3eb3-4d28-b8cc-9f23a84e15cd",
+          "ruleId": "Identity.0002",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Web.config",
+            "snippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 connectionString=\u0022Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=Microsoft.eShopOnContainers.Services.CatalogDb; Integrated Security=True; MultipleActiveResultSets=True;\u0022 providerName=\u0022System.Data.SqlClient\u0022 /\u003E",
+            "protectedSnippet": "\u003Cadd name=\u0022CatalogDBContext\u0022 /\u003E"
+          }
+        },
+        {
+          "incidentId": "db5f1b20-7384-45f0-b005-738fea7bcdcc",
+          "ruleId": "Identity.0002",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Web.config",
+            "snippet": "\u003Cadd name=\u0022IdentityDBContext\u0022 connectionString=\u0022Data Source=(LocalDb)\\MSSQLLocalDB; Initial Catalog=Microsoft.eShopOnContainers.Services.IdentityDb; Integrated Security=True\u0022 providerName=\u0022System.Data.SqlClient\u0022 /\u003E",
+            "protectedSnippet": "\u003Cadd name=\u0022IdentityDBContext\u0022 /\u003E"
+          }
+        },
+        {
+          "incidentId": "6f6e16c5-968d-4aaf-8168-e55a35c92a53",
+          "ruleId": "Scale.0002",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Web.config",
+            "snippet": "\u003CsessionState mode=\u0022InProc\u0022 /\u003E",
+            "protectedSnippet": "\u003CsessionState /\u003E"
+          }
+        },
+        {
+          "incidentId": "fb288386-48b3-4c59-abc8-e005815e771d",
+          "ruleId": "Security.0002",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Web.config",
+            "snippet": "\u003CappSettings\u003E\r\n  \u003Cadd key=\u0022webpages:Version\u0022 value=\u00223.0.0.0\u0022 /\u003E\r\n  \u003Cadd key=\u0022webpages:Enabled\u0022 value=\u0022false\u0022 /\u003E\r\n  \u003Cadd key=\u0022ClientValidationEnabled\u0022 value=\u0022true\u0022 /\u003E\r\n  \u003Cadd key=\u0022UnobtrusiveJavaScriptEnabled\u0022 value=\u0022true\u0022 /\u003E\r\n  \u003Cadd key=\u0022UseMockData\u0022 value=\u0022false\u0022 /\u003E\r\n  \u003Cadd key=\u0022UseCustomizationData\u0022 value=\u0022false\u0022 /\u003E\r\n\u003C/appSettings\u003E",
+            "protectedSnippet": "\u003CappSettings /\u003E"
+          }
+        },
+        {
+          "incidentId": "1bc74bcb-5fd2-4adb-a888-152945f45386",
+          "ruleId": "Security.0002",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Web.config",
+            "snippet": "\u003CconnectionStrings\u003E\r\n  \u003Cadd name=\u0022CatalogDBContext\u0022 connectionString=\u0022Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=Microsoft.eShopOnContainers.Services.CatalogDb; Integrated Security=True; MultipleActiveResultSets=True;\u0022 providerName=\u0022System.Data.SqlClient\u0022 /\u003E\r\n  \u003Cadd name=\u0022IdentityDBContext\u0022 connectionString=\u0022Data Source=(LocalDb)\\MSSQLLocalDB; Initial Catalog=Microsoft.eShopOnContainers.Services.IdentityDb; Integrated Security=True\u0022 providerName=\u0022System.Data.SqlClient\u0022 /\u003E\r\n\u003C/connectionStrings\u003E",
+            "protectedSnippet": "\u003CconnectionStrings /\u003E"
+          }
+        },
+        {
+          "incidentId": "6470a074-ed08-45fb-a309-accdf95f5c27",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Controllers\\PicController.cs",
+            "snippet": "var buffer = System.IO.File.ReadAllBytes(path);",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 43,
+            "column": 39
+          }
+        },
+        {
+          "incidentId": "e6f37e59-677d-4837-b5be-97842d89ea27",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "context.Database.ExecuteSqlCommand(File.ReadAllText(scriptFilePath));",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 335,
+            "column": 47
+          }
+        },
+        {
+          "incidentId": "72507f0c-826b-4d06-8004-c33e28d207a4",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "DirectoryInfo picturePath = new DirectoryInfo(Path.Combine(contentRootPath, \u0022Pics\u0022));",
+            "protectedSnippet": "System.IO.DirectoryInfo",
+            "label": "System.IO.DirectoryInfo",
+            "line": 345,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "fca161ca-46e0-4998-89f8-cd860ab540c2",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "DirectoryInfo picturePath = new DirectoryInfo(Path.Combine(contentRootPath, \u0022Pics\u0022));",
+            "protectedSnippet": "System.IO.DirectoryInfo",
+            "label": "System.IO.DirectoryInfo",
+            "line": 345,
+            "column": 44
+          }
+        },
+        {
+          "incidentId": "98d7fe73-17f1-4a41-999f-68bc9cd1e4b1",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "foreach (FileInfo file in picturePath.GetFiles())\r\n            {\r\n                file.Delete();\r\n            }",
+            "protectedSnippet": "System.IO.FileInfo",
+            "label": "System.IO.FileInfo",
+            "line": 346,
+            "column": 21
+          }
+        },
+        {
+          "incidentId": "12697f54-defd-4655-9ca7-f8b72e285c5d",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "if (!File.Exists(csvFileCatalogBrands))\r\n            {\r\n                return PreconfiguredData.GetPreconfiguredCatalogBrands();\r\n            }",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 135,
+            "column": 17
+          }
+        },
+        {
+          "incidentId": "b85dd065-6876-402e-8532-615b56f34cdb",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "if (!File.Exists(csvFileCatalogItems))\r\n            {\r\n                return PreconfiguredData.GetPreconfiguredCatalogItems();\r\n            }",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 171,
+            "column": 17
+          }
+        },
+        {
+          "incidentId": "42452d18-7dc5-421a-8431-91a9f96de7c6",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "if (!File.Exists(csvFileCatalogTypes))\r\n            {\r\n                return PreconfiguredData.GetPreconfiguredCatalogTypes();\r\n            }",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 99,
+            "column": 17
+          }
+        },
+        {
+          "incidentId": "41390e27-891a-42ab-be41-4ff48aac49dc",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "return File.ReadAllLines(csvFileCatalogBrands)\r\n                                        .Skip(1) // skip header row\r\n                                        .Select(x =\u003E CreateCatalogBrand(x))\r\n                                        .Where(x =\u003E x != null);",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 145,
+            "column": 19
+          }
+        },
+        {
+          "incidentId": "ae0b837d-ef70-44a3-b5a3-84f10f96b515",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "return File.ReadAllLines(csvFileCatalogItems)\r\n                        .Skip(1) // skip header row\r\n                        .Select(row =\u003E Regex.Split(row, \u0022,(?=(?:[^\\\u0022]*\\\u0022[^\\\u0022]*\\\u0022)*[^\\\u0022]*$)\u0022))\r\n                        .Select(column =\u003E CreateCatalogItem(column, csvheaders, catalogTypeIdLookup, catalogBrandIdLookup))\r\n                        .Where(x =\u003E x != null);",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 184,
+            "column": 19
+          }
+        },
+        {
+          "incidentId": "6db8bf61-722f-430c-b7b0-0a387d9663e5",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "return File.ReadAllLines(csvFileCatalogTypes)\r\n                                        .Skip(1) // skip header row\r\n                                        .Select(x =\u003E CreateCatalogType(x))\r\n                                        .Where(x =\u003E x != null);",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 109,
+            "column": 19
+          }
+        },
+        {
+          "incidentId": "33a010f9-a4fe-4de5-9641-4a50423fe006",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "string[] csvheaders = File.ReadLines(csvfile).First().ToLowerInvariant().Split(\u0027,\u0027);",
+            "protectedSnippet": "System.IO.File",
+            "label": "System.IO.File",
+            "line": 299,
+            "column": 34
+          }
+        },
+        {
+          "incidentId": "0d2ec153-cd5c-4bef-9283-b8148880a5b6",
+          "ruleId": "Local.0003",
+          "projectPath": "eShopLegacyMVC\\eShopLegacyMVC.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "eShopLegacyMVC\\Models\\Infrastructure\\CatalogDBInitializer.cs",
+            "snippet": "ZipFile.ExtractToDirectory(zipFileCatalogItemPictures, picturePath.ToString());",
+            "protectedSnippet": "System.IO.Compression.ZipFile",
+            "label": "System.IO.Compression.ZipFile",
+            "line": 352,
+            "column": 12
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Runtime.0002": {
+      "id": "Runtime.0002",
+      "description": "Upgrade to newer target framework to get better cloud experience.\n\nApplication targeting .NET framework lower than 4.7.1 might missing features that would be needed for some cloud scenarios like scaling or getting secrets from secure external sources.\n\nAzure App Service runs apps on .NET Framework 4.8 or .NET Framework 3.5. Target frameworks older than .NET Framework 4.8 could also have potential compatibility issues. It is recommended to retarget your application to .NET Framework 4.8.\n\nIn the long term it is also recommended to upgrade your application to latest supported .NET 7\u002B which would significantly increase performance of your application. Use tools like Upgrade Assistant to help with upgrading your application to newer .NET.",
+      "label": "Upgrade to newer target framework to get better cloud experience",
+      "severity": "Potential",
+      "effort": 3,
+      "links": [
+        {
+          "title": ".NET Framework Breaking Changes",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250029"
+        },
+        {
+          "title": ".NET Framework 4.8 on App Service",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251730"
+        },
+        {
+          "title": "Upgrade to latest .NET with Upgrade Assistant",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2202641"
+        }
+      ]
+    },
+    "Scale.0001": {
+      "id": "Scale.0001",
+      "description": "Static content detected.\n\nYour current approach of serving static content directly might lead to increased costs, performance issues, maintenance challenges (requiring application redeployment for content changes), and security risks.\n\nConsider moving static content to Azure Blob Storage and adding Azure CDN.",
+      "label": "Static content detected",
+      "severity": "Optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Azure Blob Storage",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250574"
+        },
+        {
+          "title": "Azure CDN",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250392"
+        }
+      ]
+    },
+    "Local.0007": {
+      "id": "Local.0007",
+      "description": "Local OS environment access detected.\n\nWhen running in Azure App Service environment, your application can read environment variables that you define in App Service settings. Using environment API other than reading environment variables might indicate that your application depends on some local machine\u2019s features and might be broken on App Service sandbox or not scale well. Review your scenarios and either refactor them to be more cloud friendly or choose the option in App Service to host your application in the sandbox for Windows Container Web Apps.\n\nIf you choose to use other Azure hosting options such as Azure Container Apps (ACA) or Azure Kubernetes Service (AKS), environment APIs might work, however scaling still might be an issue.",
+      "label": "Local OS environment access detected",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "General App Service sandbox restrictions",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250496"
+        },
+        {
+          "title": "App Service sandbox for Windows Container Web Apps",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251963"
+        },
+        {
+          "title": "Design to scale out",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251007"
+        }
+      ]
+    },
+    "Local.0004": {
+      "id": "Local.0004",
+      "description": "Logging to local or network paths detected.\n\nLogging APIs that write to disk might not work on Azure App Service or Container.\n\nUse logging that stores logs in locations outside of the host unless its specifically required by your app. You can also use logging capabilities embedded in Azure, such as Azure App Service logging or Application Insights.\n\nFor migrating to AKS, use LogMonitor tool that can capture logs written to files, the console, or write logs and redirect them to Azure.",
+      "label": "Logging to local or network paths detected",
+      "severity": "Mandatory",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Logging in Azure App Service",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251711"
+        },
+        {
+          "title": "Logging in Application Insights",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251712"
+        },
+        {
+          "title": "LogMonitor",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251308"
+        }
+      ]
+    },
+    "Connection.0001": {
+      "id": "Connection.0001",
+      "description": "Connection string detected. It may not be available when your app is migrated to Azure.\n\nReview and ensure it works from Azure. If you are connecting to a database, you might need to migrate the database to Azure. There are multiple ways to do it:\n    1. Migrate to Azure SQL Database for additional benefits (see the link below).\n    2. Consider Azure SQL Managed Instance if you need features that are not available in Azure SQL Database and you don\u2019t want to use a VM.\n    3. Migrate your database servers directly to SQL Server on Azure VMs.\n\nTo assess database migration effort, you can use Azure Migrate tool, see the link below.",
+      "label": "Connection string is detected",
+      "severity": "Potential",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Migrate SQL Server database to Azure",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251731"
+        },
+        {
+          "title": "Azure SQL Managed Instance",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251613"
+        },
+        {
+          "title": "Azure Migrate",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2252410"
+        }
+      ]
+    },
+    "Identity.0002": {
+      "id": "Identity.0002",
+      "description": "Your app is using windows authentication which is not supported on Azure App Service.\n\nAzure App Service provides built-in authentication and authorization capabilities, so you can sign in users and access data by writing minimal or no code in your web app.\n\nFollow the link below for more information.\u0022",
+      "label": "Windows authentication detected",
+      "severity": "Mandatory",
+      "effort": 3,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242883"
+        }
+      ]
+    },
+    "Scale.0002": {
+      "id": "Scale.0002",
+      "description": "Session state stored in-proc or in local process is detected./n/nIn-proc or local process stored session state not immediately prevents an application from working in Azure, however, is not recommended because it would make scaling the Azure App Service or Azure Kubernetes Service more difficult./n/nAzure provides multiple ways to store session state in a scalable way using  Azure Cache for Redis, Azure Cosmos DB or other services.",
+      "label": "Session state stored in-proc or in local process is detected",
+      "severity": "Potential",
+      "effort": 3,
+      "links": [
+        {
+          "title": "ASP.NET Session State Provider for Azure Cache for Redis",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250855"
+        },
+        {
+          "title": "Use Azure Cosmos DB as an ASP.NET session state and caching provider",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250757"
+        },
+        {
+          "title": "Azure Cosmos DB: autoscale, session state, monitoring, and more",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250758"
+        },
+        {
+          "title": "Design to scale out",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251007"
+        }
+      ]
+    },
+    "Security.0002": {
+      "id": "Security.0002",
+      "description": "Connection strings without configuration builders detected.  \n\n Keeping connection strings directly in the app is not the best practice and might introduce security risks, increased maintenance, scalability challenges or compliance standards (such as PCI DSS, GDPR, etc.). \n\n Instead, it is recommended to use configuration builders to get secrets from secure sources in Azure environment.",
+      "label": "Connection strings without configuration builders detected",
+      "severity": "Optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Configuration builders",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250915"
+        },
+        {
+          "title": "Storing application secrets",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250916"
+        },
+        {
+          "title": "Centralized app configuration and security",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250733"
+        }
+      ]
+    },
+    "Local.0003": {
+      "id": "Local.0003",
+      "description": "Your application has local or network IO operations.\n\nIO operations outside of the application folder might not be available on Azure App Service. Review and ensure IO APIs are attempting to access paths that will be available when your app is running on App Service sandbox. If you choose the containerized hosting option, your scenario still might be broken or have scalability issues.\n\nPossible solutions:\n    1. Files that the application needs can be deployed with the application or put in Azure Storage. You can use Azure Storage File Shares as a drop-in replacement for on-premises file share.\n    2. Other services that the application depends on might need to be migrated to Azure, this way you will get the benefit of lower latency in the cloud.\n    3. If your application needs to depend on services that run on-premise, you can connect your Azure and local networks with ExpressRoute, Hybrid Connections, or VPN solutions.",
+      "label": "Local or network IO operations detected",
+      "severity": "Potential",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Azure file share",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242591"
+        },
+        {
+          "title": "ExpressRoute",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250577"
+        },
+        {
+          "title": "Hybrid Connections",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242588"
+        },
+        {
+          "title": "Connect an on-prem network",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242591"
+        },
+        {
+          "title": "Design to scale out",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251007"
+        }
+      ]
+    }
+  }
+}
